@@ -122,15 +122,33 @@ img , .image {
  	
 }
 
-.image {
+.container-ph {
  	
  	align-items: center;
- 	
+ 	padding-bottom: 5%;
 }
 
 .row_image {
 	text-align: center;
 }
+
+
+
+
+
+
+.PS {
+	text-align: center;
+	font-size: 16px;
+	font-family: "Calibri"
+}
+
+
+.image{
+	
+}
+
+
 
 
 
