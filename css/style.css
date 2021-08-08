@@ -1,3 +1,4 @@
+/*Убрать края у браузера*/
 body {
 	margin: 0 auto;
 	padding:0;
@@ -6,7 +7,7 @@ body {
 h1{
 	margin: 0 auto;
 }
-
+/*Логотип*/
 .container_logo{
 padding-bottom: 10%;
 padding-top: 5%;
@@ -28,20 +29,20 @@ hr{
 	position: block;
 	background: #4d67ac;
 }
-
+/*Основной контент*/
 h3{
 	font-size: 24px;
 	font-family:'Open Sans Condensed', sans-serif;
 	color: #121137;
 	font-weight: 600;
-	padding-left: 15px;
+	padding-left: 30px;
 }
 
 p{
 	font-size: 18px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: #535353;
-	padding-left: 15px;
+	padding-left: 30px;
 
 }
 
@@ -80,35 +81,80 @@ h4{
 	padding-top: 20px;
 	padding-bottom: 50px;
 }
+
 h5{
 	font-size: 36px;
 	font-family: 'Raleway', sans-serif;;
 	color: #121137;
 	padding-top: 15px;
 	padding-bottom: 5%;
-	
-	
+	text-align: center;
 }
 
-.row_pro {
+ .row_pro {
 	
 	
 	text-align: center;
 	
 	
 }
-.container-fluid
-{
+/*Процесс*/
+.container-pro, .row_pro{
 	background: #f4f4f4;
-	width: 100%;
-	position: absolute;
-	left: 0;
-	height: 50%;
 	
+	height: 350px;		
 }
 
-.status{
+.status {
 	
 	height: 100px;
 	width: 100px;
 }
+
+.container-ph {
+	
+}
+
+img , .image {
+ 	height: 240px;
+ 	width: 315px;
+ 	display: inline;
+ 	
+}
+
+.image {
+ 	
+ 	align-items: center;
+ 	
+}
+
+.row_image {
+	text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+   	h5 {
+	font-size: 20px;
+}
+	
+}
+
+
+@media screen and (max-width: 989px) {
+   	.container_logo{
+	padding: 0;
+}
+	  .img_F{
+	display: none;	
+
+	}
+
+	.container {
+		padding-top: 0;
+	}
+	
+}
+
