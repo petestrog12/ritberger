@@ -1,0 +1,114 @@
+body {
+	margin: 0 auto;
+	padding:0;
+	
+}
+h1{
+	margin: 0 auto;
+}
+
+.container_logo{
+padding-bottom: 10%;
+padding-top: 5%;
+padding-left: 15%;
+
+}
+
+hr{
+	color: #121137;
+}
+.Pol, h1 {
+	font-size: 36px;
+	font-family: "Bahnschrift";
+	text-align: center;
+	color: #fff;
+}
+
+.Pol {
+	position: block;
+	background: #4d67ac;
+}
+
+h3{
+	font-size: 24px;
+	font-family:'Open Sans Condensed', sans-serif;
+	color: #121137;
+	font-weight: 600;
+	padding-left: 15px;
+}
+
+p{
+	font-size: 18px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #535353;
+	padding-left: 15px;
+
+}
+
+h2{
+	font-size: 36px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #121137;
+	display:block;
+	vertical-align:middle;
+	font-weight: 600;
+}
+
+ .avatar {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	
+}
+.container {
+	padding-top: 130px;
+}
+
+.info {
+	padding-top: 50px;
+}
+
+h4{
+	font-size: 20px;
+	font-family: "Bahnschrift";
+	color: #121137;
+	font-weight: 600;
+	
+}
+
+.contacts_block {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+h5{
+	font-size: 36px;
+	font-family: 'Raleway', sans-serif;;
+	color: #121137;
+	padding-top: 15px;
+	padding-bottom: 5%;
+	
+	
+}
+
+.row_pro {
+	
+	
+	text-align: center;
+	
+	
+}
+.container-fluid
+{
+	background: #f4f4f4;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	height: 50%;
+	
+}
+
+.status{
+	
+	height: 100px;
+	width: 100px;
+}
